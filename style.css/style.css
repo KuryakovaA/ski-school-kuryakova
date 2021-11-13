@@ -1,0 +1,23 @@
+.header {
+    width: 1440px;
+    height: 112px;
+    background-color: #66D1FF;
+}
+
+
+
+
+.footer {
+    width: 1440px;
+    height: 111;
+    background-color: black;
+}
+.social-link {
+    color: white;
+}
+.footer-copyrights {
+    color: white;
+}
+.footer-follow {
+    color: white;
+}
