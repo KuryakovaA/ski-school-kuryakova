@@ -1,23 +1,119 @@
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/montserrat-v18-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v18-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-500 - latin_cyrillic */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/montserrat-v18-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v18-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+/* oswald-500 - latin_cyrillic */
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/oswald-v40-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/oswald-v40-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
 .header {
     width: 1440px;
     height: 112px;
     background-color: #66D1FF;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 500;
+}
+.promo-title{
+    font-family: 'Oswald', sans-serif ;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 89px;
+    text-transform: uppercase;
+
+}
+.promo-text {
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    
+}
+.description {
+    background-color: rgba(102, 209, 255, .1);
+    
 }
 
+.description-title{
+    font-family: 'Oswald', sans-serif ;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 80px;
+}
 
+.description-item-title {
+    font-family: 'Oswald', sans-serif ;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 53px;
+}
 
+.description-item-text {
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.lead-block-title {
+    font-family: 'Oswald', sans-serif ;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 80px;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.btn-lead-block {
+font-family: 'Montserrat', sans-serif ;
+font-weight: 500;
+text-decoration: none;
+font-size: 36px;
+line-height: 44px;
+}
 
 .footer {
     width: 1440px;
-    height: 111;
+    height: 111px;
     background-color: black;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 500;
 }
 .social-link {
     color: white;
 }
-.footer-copyrights {
-    color: white;
-}
+
 .footer-follow {
     color: white;
+    font-size: 20px;
+    line-height: 33px;
+}
+.footer-copyrights {
+    font-size: 18px;
+    line-height: 22px;
 }
