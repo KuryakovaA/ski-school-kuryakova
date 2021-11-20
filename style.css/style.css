@@ -26,40 +26,103 @@
          url('../fonts/oswald-v40-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
+
+  /*Common*/
+
+  .container {
+      width: 1440px;
+      margin: 0 auto;
+      border: 1px solid red;
+  }
+
 /*HEADER */
 
 .header {
-    width: 1440px;
-    height: 112px;
+    
+   
     background-color: #66D1FF;
     font-family: 'Montserrat', sans-serif ;
     font-weight: 500;
 }
 
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin-left: 224px;
+    padding: 31px 0;
+  }
+  
+  .main-nav li:first-child {
+    margin-left: 0;
+  }
+
+
 .btn {
+    display: block;
+    margin-left: 123px;
+    margin-top: 41px;
     font-family: 'Montserrat', sans-serif ;
     font-weight: 500;
     text-decoration: none;
     font-size: 24px;
     line-height: 29px;
+    
+}
+
+.phone {
+    padding-top: 39px;
+    padding-bottom: 39px;
+    padding-right: 81px;
+    margin-top: 0;
+    margin-left: 224px;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 500;
+    line-height: 34px;
+    font-size: 28px;
+
 }
 
 /*PROMO */ 
+.promo {
+    background-image: url(../IMG/promo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.promo-fade {
+    background-color: rgba(6, 13, 16, 0.25);
+}
 
 .promo-title {
+    padding-top: 240px;
+    margin-bottom: 60px;
+    margin-top: 0;
+    text-align: center;
     font-family: 'Oswald', sans-serif ;
     font-weight: 500;
     font-size: 60px;
     line-height: 89px;
     text-transform: uppercase;
+    color: #FFF;
+    text-shadow: 1px 1px 2px black;
 
 }
 
 .promo-text {
+    padding-bottom: 260px;
+    margin: 0 190px;
+    text-align: center;
     font-family: 'Montserrat', sans-serif ;
     font-weight: 500;
     font-size: 32px;
     line-height: 39px;
+    color: #FFF;
+    text-shadow: 1px 1px 2px black;
     
 }
 
@@ -70,11 +133,18 @@
     
 }
 
+
+
+.description-list {
+    display: flex;
+}
+
 .description-title{
     font-family: 'Oswald', sans-serif ;
     font-weight: 500;
     font-size: 48px;
     line-height: 80px;
+    text-align: center;
 }
 
 .description-item-title {
@@ -92,12 +162,21 @@
 }
 
 /*LEAD-BLOCK */
+.lead-block {
+    background: linear-gradient(to bottom left, rgba(102, 209, 255, 0.1) 50%, #FFF 50%);
+}
 
 .lead-block-title {
     font-family: 'Oswald', sans-serif ;
     font-weight: 500;
     font-size: 48px;
     line-height: 80px;
+    text-align: center;
+    
+}
+.lead-wrap {
+    
+    text-align: center;
 }
 
 .btn-lead-block {
@@ -106,13 +185,13 @@
     text-decoration: none;
     font-size: 36px;
     line-height: 44px;
+
 }
 
 /*FOOTER */
 
 .footer {
-    width: 1440px;
-    height: 111px;
+    
     background-color: black;
     font-family: 'Montserrat', sans-serif ;
     font-weight: 500;
