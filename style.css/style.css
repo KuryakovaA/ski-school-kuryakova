@@ -29,10 +29,18 @@
 
   /*Common*/
 
+* {
+    box-sizing: border-box;
+}
+
   .container {
       width: 1440px;
       margin: 0 auto;
       border: 1px solid red;
+  }
+
+  img {
+      display: block;
   }
 
 /*HEADER */
@@ -45,33 +53,41 @@
     font-weight: 500;
 }
 
-.main-nav ul {
+.main-nav {
     display: flex;
     list-style: none;
     justify-content: space-between;
-  }
-
-  .logo {
-    margin-left: 224px;
-    padding: 31px 0;
+    
   }
   
-  .main-nav li:first-child {
-    margin-left: 0;
+  .logo-head {
+     
+    padding-top: 31px;
+    padding-bottom: 31px;
+    
   }
-
-
+  
+  
 .btn {
-    display: block;
-    margin-left: 123px;
-    margin-top: 41px;
+    display: inline-block;
+    padding: 8px 41px;
+    margin: 0 0;
     font-family: 'Montserrat', sans-serif ;
     font-weight: 500;
     text-decoration: none;
     font-size: 24px;
     line-height: 29px;
+    background-color: #FFF;
+    color: black;
+    border-radius: 4px;
     
 }
+
+.btn-head {
+    padding-left: 81px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    }
 
 .phone {
     padding-top: 39px;
@@ -135,11 +151,35 @@
 
 
 
-.description-list {
+.description-list  {
+    margin:  0 0;
     display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
 }
 
+.description-item {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 406px;
+   
+}
+
+.description-wrap {
+
+    padding-left: 81px;
+    padding-right: 81px; 
+    padding-bottom: 170px;
+    display: flex;
+    
+}
+
+
 .description-title{
+    padding-top: 170px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 100px;
     font-family: 'Oswald', sans-serif ;
     font-weight: 500;
     font-size: 48px;
@@ -152,6 +192,8 @@
     font-weight: 500;
     font-size: 32px;
     line-height: 53px;
+    margin-top: 0;
+    margin-bottom: 25px;
 }
 
 .description-item-text {
@@ -159,19 +201,25 @@
     font-weight: 400;
     font-size: 26px;
     line-height: 36px;
+    margin-top: 0;
 }
 
 /*LEAD-BLOCK */
 .lead-block {
-    background: linear-gradient(to bottom left, rgba(102, 209, 255, 0.1) 50%, #FFF 50%);
+    background: linear-gradient(208.35deg, rgba(102, 209, 255, 0.1) 43.85%, #FFF 43.86%);
 }
 
 .lead-block-title {
+    padding-top: 170px;
+    margin-bottom: 60px;
+    margin-top: 0;
     font-family: 'Oswald', sans-serif ;
     font-weight: 500;
     font-size: 48px;
     line-height: 80px;
     text-align: center;
+    text-transform: uppercase;
+
     
 }
 .lead-wrap {
@@ -179,13 +227,32 @@
     text-align: center;
 }
 
+
 .btn-lead-block {
+    display: inline-block;
+    padding: 22px 108px;
+    text-align: center;
+    margin-bottom: 124px;
     font-family: 'Montserrat', sans-serif ;
     font-weight: 500;
     text-decoration: none;
     font-size: 36px;
     line-height: 44px;
+    border: 3px solid black;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 4px;
 
+}
+
+.lead-block-list {
+    display: flex;
+    list-style: none;
+    padding-left: 81px;
+    padding-right: 81px;
+    padding-bottom: 180px;
+    margin: 0 0;
+    justify-content: space-between;
 }
 
 /*FOOTER */
