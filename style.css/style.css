@@ -46,8 +46,6 @@
 /*HEADER */
 
 .header {
-    
-   
     background-color: #66D1FF;
     font-family: 'Montserrat', sans-serif ;
     font-weight: 500;
@@ -61,10 +59,8 @@
   }
   
   .logo-head {
-     
     padding-top: 31px;
     padding-bottom: 31px;
-    
   }
   
   
@@ -89,19 +85,22 @@
     padding-bottom: 34px;
     }
 
-.phone {
+.phone-head {
     padding-top: 39px;
     padding-bottom: 39px;
     padding-right: 81px;
     margin-top: 0;
-    margin-left: 224px;
     margin-bottom: 0;
+    }
+
+.phone {
+    margin: 0;
     font-family: 'Montserrat', sans-serif ;
     font-weight: 500;
     line-height: 34px;
     font-size: 28px;
-
 }
+
 
 /*PROMO */ 
 .promo {
@@ -263,16 +262,54 @@
     font-family: 'Montserrat', sans-serif ;
     font-weight: 500;
 }
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social {
+    display: flex; 
+    padding: 35px 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+}
+.social-item {
+    margin-left: 15px;
+
+}
+
 .social-link {
-    color: white;
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  
+}
+.social-text {
+   opacity: 0;
+   font-size: 1px;
 }
 
 .footer-follow {
+    padding-top: 39px;
+    padding-bottom: 38px;
+    padding-left: 98px;
+    padding-right: 50px;
+    margin: 0;
     color: white;
     font-size: 20px;
     line-height: 33px;
 }
 .footer-copyrights {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-right: 81px;
+    margin: 0;
     font-size: 18px;
     line-height: 22px;
+    color: #FFF;
 }
